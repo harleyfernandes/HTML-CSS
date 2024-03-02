@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        /*ao inves de colocar o nome da fonte pode colocar se ela é sans-serif, serif, monospace (o navegador escolhe alguma que ele considera nessas categoria*/
+        /*ha tb as safe web fonts combinations que é o caso de Arial, Helvetica, sans-serif;*/
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            /* 
+            medidas absolutas
+            cm, mm, in(polegada), px, pt, pc(paica)
+
+            medidas relativas
+            em(medida relativa do tamanho atual da fonte "altura da letra M de uma fonte")
+            ex(relativa a altura x de uma fonte "altura da letra x de uma fonte")
+            rem (é tipo o em mas é relativo ao root configurado no body)
+            vw (largura da view port que é o tamanho da sua tela)
+            vh (altura da view port)
+            %
+
+            recomendação de uso da w3c é px e em
+
+            normalmente os navegadores colocam o tamanho da font-size de 16px
+            16px geralmente é = 1em
+            */
+            font-size: 1em ;
+
+            /*
+            peso da fonte, para utilizar usasse o parametro font-weight que tem algumas variações diferentes que são: lighter, normal, bold, bolder
+            há tb variações numericas
+            que vai de 100 a 900 mas nem todas as fontes tem todas as variações
+            */
+
+            /*
+            para colocar estilo usasse font-style
+            text-decoration
+            */
+
+            /*
+            geralmente há 4 declarações muito comuns de se fazer como por exemplo
+            font-family
+            font-weight
+            font-size
+            font-style
+
+            mas da pra fazer em apenas uma declaração e se chama
+            shorthand font ela condensa todas as informações mas precisa colocar em ordem
+
+            font-style > font-weight > font-size > font-family
+
+            assim que se aplica
+            font: italic bolder 3em arial, sans-serif
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate voluptatem accusamus id, numquam, nam vero repudiandae, quidem nisi corrupti perspiciatis ipsa autem ipsum voluptas doloremque. Nihil non praesentium delectus inventore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque similique necessitatibus nobis, soluta eaque inventore earum impedit nihil et delectus corporis illo sed eos, at ex neque vitae suscipit labore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est delectus esse consectetur corporis sunt neque quia aspernatur illo in! Placeat, aspernatur architecto excepturi molestiae sit repudiandae quidem nulla earum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ut eum voluptates in facilis aperiam dolor possimus officia ullam? Ullam eius tempore rerum, neque debitis eos deleniti sit nostrum sequi?</p>
+    <h2>Subtítulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quos laborum incidunt necessitatibus. Voluptate veniam corporis molestias aliquam dicta. Voluptatem facere placeat iure ad itaque dolores non nihil laudantium autem.</p>
+    
+</body>
+</html>
